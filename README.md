@@ -2,9 +2,13 @@
 FASE PROYECTO DE DAW LABORATORIO
 INTEGRANTES:
 -Demata Moreno Andrea Lisseth  DM221223
+
 -Pineda Franco Francisco Joel PF192002
+
 -Alvarado Vásquez Marvin Alexander AV181694
+
 -Cuéllar Vásquez Walter Rodrigo CV202820
+
 -Flores Canizales Rafael Ernesto FC202823
 
 LINK DE LOS MOCKUPS: https://drive.google.com/drive/folders/1vMZ9mSVUYs90Opqk65sx1zUOJCAGUyiP?usp=share_link
