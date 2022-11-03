@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/master.css">
+   
+ 
+    <title>Incio de Sesion</title>
+</head>
+<body>
+  <div class="login-box">
+    <img src="./img/logo.png" class="avatar" alt="Avatar Image">
+    <h1>Iniciar Sesion</h1>
+    <form onsubmit="signIn(event);">
+      <!-- USERNAME INPUT -->
+      <label for="username">Nombre de Ususario</label>
+      <input id="name" type="text" placeholder="Ingrese su usuario">
+      <!-- PASSWORD INPUT -->
+      <label for="password">Contraseña</label>
+      <input  id="password" type="password" placeholder="Ingrese su contraseña">
+      <input id="login" class="btn btn-info btn-lg btn-block" type="submit">
+      <a href="#">¿Olvidaste tu contraseña?</a><br>
+      <a href="registro.html">Registrate</a>
+    </form>
+</body>
+<script src="js/valid.js"></script>
+<script src="js/medicamento.js"></script>
+</html>

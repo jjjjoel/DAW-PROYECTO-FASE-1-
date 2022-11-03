@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/master.css">
+   
+ 
+    <title>Crear Cuenta</title>
+</head>
+<body>
+  <div class="login-box">
+    <img src="./img/logo.png" class="avatar" alt="Avatar Image">
+    <h1>Crear Cuenta</h1>
+    <form onsubmit="signUp(event);">
+      <!-- USERNAME INPUT -->
+      <label for="username">Nombre de Ususario</label>
+      <input id="name" type="text" placeholder="Ingrese su usuario" required>
+      <!-- PASSWORD INPUT -->
+      <label for="password">Contraseña</label>
+      <input  id="password" type="password" placeholder="Ingrese su contraseña" required>
+      <input id="login" class="btn btn-info btn-lg btn-block" type="submit">
+      <a >¿Tienes cuenta?</a><br>
+      <a href="index.html">Inicia Sesion</a>
+    </form>
+</body>
+<script src="js/valid.js"></script>
+</html>
+
